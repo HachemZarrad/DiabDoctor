@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e86ed</color>
+    <color name="colorPrimaryDark">#336fc4</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBack">#343b45</color>
+    <color name="registerButton">#ffb842</color>
+    <color name="loginButton">#2e3339</color>
+    <color name="ph">#fcffff</color>
+    <color name="editTextBack">#3e4750</color>
+    <color name="editTextText">#a5acb4</color>
+    <color name="vector">#CACCC7</color>
+    <color name="floatButton">#dc4031</color>
+    <color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginBottom="60dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView11"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+
+        >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/imageView1"
+            android:textColorHint="@color/editTextText"
+            android:hint="  Username">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:background="@color/loginButton"
+            android:src="@drawable/ic_account_box_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/editTextText"
+            android:layout_toRightOf="@+id/imageView2"
+            android:hint="  Email">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:background="@color/loginButton"
+            android:src="@drawable/ic_email_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:background="@color/editTextBack"
+            android:textColorHint="@color/editTextText"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/imageView3"
+            android:hint="  Password">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:background="@color/loginButton"
+            android:src="@drawable/ic_lock_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/editTextText"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/imageView4"
+            android:hint="  PhoneNumber">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:background="@color/loginButton"
+            android:src="@drawable/ic_phone_iphone_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+
+
+
+        >
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/editTextText"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/imageView5"
+            android:hint="  City">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:background="@color/loginButton"
+            android:src="@drawable/ic_location_city_black_24dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="14dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:src="@drawable/register"
+
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/imageView7"
+            android:background="@color/registerButton"
+            android:gravity="center"
+            android:text="Alter"
+            android:textColor="@color/ph"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</LinearLayout>

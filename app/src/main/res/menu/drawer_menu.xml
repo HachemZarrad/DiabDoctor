@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Alarm" />
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Emergency" />
+        <item
+            android:id="@+id/nav_Read"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Read" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/doc1"
+                android:title="settings" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Send Message" />
+        </menu>
+    </item>
+
+
+</menu>

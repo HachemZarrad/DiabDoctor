@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "183566488313",
+    "firebase_url": "https://diabdoctor-1b528.firebaseio.com",
+    "project_id": "diabdoctor-1b528",
+    "storage_bucket": "diabdoctor-1b528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183566488313:android:58b4cff30be3b441768828",
+        "android_client_info": {
+          "package_name": "com.example.diabdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183566488313-mhpus2taq94e36vd3n7qnfn8109r6mgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diabdoctor",
+            "certificate_hash": "d6f5e506c5b0d6373a99cb1ede3593b7b959d0d6"
+          }
+        },
+        {
+          "client_id": "183566488313-43dgrd73h5p7vhcq565es7cj389tepd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDim3tfOH6BLN-YN2nQ0fvsuSZhk-hgGu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183566488313-43dgrd73h5p7vhcq565es7cj389tepd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
