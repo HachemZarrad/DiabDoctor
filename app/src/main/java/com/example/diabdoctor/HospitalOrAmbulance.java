@@ -16,13 +16,13 @@ public class HospitalOrAmbulance extends AppCompatActivity {
     }
 
     public void ambulance(View v){
-        Uri uri = Uri.parse("https://www.google.co.in/maps/search/ambulance near me"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("https://www.google.co.in/maps/search/ambulance near me"); 
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
 
     public void hospital(View view){
-        Uri uri = Uri.parse("https://www.google.co.in/maps/search/hospital near me"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("https://www.google.co.in/maps/search/hospital near me"); 
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
